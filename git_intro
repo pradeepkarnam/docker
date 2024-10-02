@@ -1,0 +1,36 @@
+**Git** and **GitHub** are powerful tools for version control and collaboration in software development, but they serve different purposes.
+
+### **Git**
+- **Git** is a **distributed version control system**. It allows multiple people to work on the same codebase simultaneously without interfering with each other’s work.
+- Git tracks changes to your files (mainly source code), allowing you to **revert to earlier versions** of the files or compare changes.
+- Git works locally on your system, allowing you to have a full history of changes without needing internet access.
+
+#### Key Concepts in Git:
+1. **Repository (Repo)**: A directory where Git tracks changes. It contains all your project files and Git history.
+2. **Commit**: A snapshot of the changes in the project. It's like saving your work with a note describing what changes you made.
+3. **Branch**: A separate line of development. Branches let you work on different features or bug fixes without affecting the main code.
+4. **Merge**: Combining branches together. Often used to integrate features or fixes from a separate branch into the main code.
+5. **Clone**: Copying a Git repository from a remote location (like GitHub) to your local system.
+6. **Push**: Sending changes from your local repository to a remote repository (e.g., GitHub).
+7. **Pull**: Fetching and merging changes from a remote repository to your local one.
+
+### **GitHub**
+- **GitHub** is a web-based **platform** built on top of Git, designed for collaboration and sharing Git repositories.
+- It hosts your Git repositories **online** so you can share them with others and collaborate on code in real-time.
+- GitHub provides a user-friendly interface to manage repositories, review code changes, and handle collaborative development.
+
+#### Key Features of GitHub:
+1. **Repositories**: Just like with Git, you create repositories, but GitHub provides a space to store them online.
+2. **Pull Requests**: A feature for code review and collaboration. It allows developers to suggest changes in a separate branch and request the repository owner to merge them.
+3. **Issues**: A way to track bugs, feature requests, and other tasks related to your project.
+4. **Fork**: Copying someone else’s repository to your own GitHub account, allowing you to experiment or make changes without affecting the original repository.
+5. **GitHub Actions**: Automate tasks such as testing, deployment, and more using continuous integration and continuous deployment (CI/CD) pipelines.
+6. **Collaborators**: You can add other users to your GitHub repository, allowing them to contribute directly.
+
+### Git + GitHub Workflow:
+1. **Clone** a repository from GitHub to your local system.
+2. Make changes and **commit** them locally using Git.
+3. **Push** those changes back to GitHub to share with others.
+4. Use **pull requests** to propose changes, review code, and merge contributions.
+
+Git is for local version control, while GitHub provides an online platform to collaborate, manage, and share Git repositories.
